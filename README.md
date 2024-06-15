@@ -1,7 +1,7 @@
 # KuCoin Candle Trading
 KuCoin is a well known crypto trading platform. KuCoin provides an API with lots of possibilities for communicating data and orders. This is a crypto trading bot that I programmed some time ago.
 
-### History
+### The story
 I programmed this bot based on a very simple idea that someone had and wanted to test. My goal was to work with the KuCoin API and have some experience with opening, closing and trailing trades within time steps as low as minutes and seconds.
 
 ### Candle trading
