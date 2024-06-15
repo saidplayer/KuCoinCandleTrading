@@ -1,0 +1,14 @@
+{
+ "Candles": [
+  {
+   "time": 1718491200000.0,
+   "pair": "ETHUSDTM",
+   "symbol": "ETHUSDTM",
+   "high": 3563.94,
+   "low": 3562.65,
+   "last_close": 3563.94,
+   "ref_size_min": 0,
+   "ref_size_max": 1000
+  }
+ ]
+}

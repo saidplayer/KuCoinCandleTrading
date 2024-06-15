@@ -1,0 +1,78 @@
+body, table, tr, td, th {
+  font-family: Tahoma, Geneva, sans-serif;
+}
+table.blueTable {
+  font-family: Tahoma, Geneva, sans-serif;
+  border: 1px solid #052941;
+  background-color: #517fa0;
+  text-align: left;
+  border-collapse: collapse;
+}
+table.blueTable td{
+  border: 0px solid #241010;
+  padding: 3px 2px;
+}
+table.blueTable th {
+  border: 0px solid #250404;
+  padding: 3px 2px;
+}
+table.blueTable tbody tr {
+  font-size: 15px;
+}
+table.blueTable tbody tr:hover {
+  background-color: #E0E0E0;
+  border-bottom: 1px solid black;
+  border-top: 0.5px solid black;
+}
+table.blueTable tr:nth-child(even) {
+  background: #DDFFF0;
+}
+table.blueTable thead th {
+  background: #242a30;
+  background: -moz-linear-gradient(top, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+  background: -webkit-linear-gradient(top, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+  background: linear-gradient(to bottom, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+  border-bottom: 2px solid #444444;
+  font-family: sans-serif, Tahoma, Geneva, sans-serif;
+  font-size: 9px;
+}
+table.blueTable thead th {
+  font-size: 15px;
+  font-weight: bold;
+  color: #FFFFFF;
+  border-left: 1px solid #181b1d;
+}
+table.blueTable thead th a {
+  color: #F0F0F0;
+  text-decoration : none;
+}
+table.blueTable thead th a:hover, table.blueTable tbody tr a:hover {
+  color: Black;
+  text-decoration : underline;
+}
+
+table.blueTable tbody tr a, span.pagenum a {
+  color: #000088;
+  text-decoration : none;
+}
+
+::-webkit-scrollbar {
+  width: 17px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 8px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #55AA99; 
+  border-radius: 8px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #000000; 
+}

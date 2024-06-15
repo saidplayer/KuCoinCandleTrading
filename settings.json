@@ -1,0 +1,51 @@
+{
+    "symbol": "ETHUSDTM",
+    "pair": "ETHUSDTM",
+
+    "order_size_scale" : 0,
+    "candle_size_min": 0,
+    "candle_size_max": 1000,
+    "exposure": 0.24,
+
+    "leverage": 100,
+    "order_cancellation": 1,
+    "order_expiration": 2,
+
+    "order_level_scale" : 0,
+    "order_side":        ["buy", "buy", "sell", "sell"],
+    "order_level":       [0.5,    0,   0,   -0.5],
+    "pending_tolerance": [2,   0.75,   2,      2],
+
+    "loss_profit_scale" : 0,
+    "order_TP":       [ 50,    50,   -50,  -50],
+    "order_SL":       [ -2,   -1,     2,     2],
+    "order_bigSL":    [-5,     -6,     6,     5],
+    "stop_tolerance": [0.5,   0.5,   0.5,   1],
+    "comment":        ["sl1", "sl2","sl3","big"],
+    "second_sl":    0.5,
+    "manual_sl":    4,
+
+    "trail_profit":[100, 20,  10,  5,  3,  1],
+    "trail_SL":    [-30, -6,  -4, -2, -1, -1],
+
+    "orphan_limit" : 1,
+    
+    "time_offset" : 0,
+    "step_time": 5,
+    "time_frame": 1,
+
+
+    "trade_periods": 0,
+
+    "trade_periods_h" : [
+        ["00:00:00" , "23:59:59"],
+        ["00:42:59" , "00:45:01"],
+        ["00:49:00" , "00:53:01"]
+    ],
+
+    "trade_periods_m" : [
+        ["00:00:00" , "00:59:59"],
+        ["00:42:59" , "00:45:01"],
+        ["00:49:00" , "00:53:01"]
+    ]
+}
